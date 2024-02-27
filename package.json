@@ -1,0 +1,18 @@
+{
+  "name": "hair_dressing_saloon",
+  "version": "1.0.0",
+  "description": "hair stylist saloon for ladies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Hair_dressing_saloon"
+  },
+  "author": "Edmondakwasi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
