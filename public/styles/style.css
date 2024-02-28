@@ -133,7 +133,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background:url(../images/home-bg2.png) no-repeat;
+    /* background:url(../images/home-bg2.png) no-repeat; */
     background-size: cover;
     background-position: center;
 }
@@ -161,7 +161,7 @@ section{
 /* about */
 
 .about{
-    background-image:url(../images/about-left.png);
+    /* background-image:url(../images/about-left.png); */
     background-repeat:no-repeat; 
     background-position:left bottom;
 }
@@ -324,7 +324,7 @@ section{
 /* pricing */
 
 .pricing{
-    background: url('../images/pricing.jpg');
+    /* background: url('../images/pricing.jpg'); */
     background-attachment: fixed;
 }
 
@@ -496,7 +496,7 @@ section{
 /* visit */
 
 .visit{
-    background: url('../images/visit.png');
+    /* background: url('../images/visit.png'); */
     background-size: cover;
     background-position: center;
 }
