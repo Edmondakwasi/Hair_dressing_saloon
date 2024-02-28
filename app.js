@@ -1,3 +1,5 @@
+const path = require('path')
+
 const express = require('express');
 const bodyParser = require('body-parser');
 
@@ -11,8 +13,13 @@ app.use(bodyParser.json());
 // Serve static files (like HTML, CSS, and images)
 app.use(express.static('public'));
 
+app.get('/', function(req,res){
+    const htmlFilePath = path.join(__dirname, 'views','index.html' )
+    res.sendFile(htmlFilePath)
+})
+
 // POST endpoint to handle form submission
-app.post('/book-visit', (req, res) => {
+app.post('/', (req, res) => {
     const name = req.body.name;
     const email = req.body.email;
     const subject = req.body.subject;
