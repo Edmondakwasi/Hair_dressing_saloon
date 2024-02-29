@@ -5,7 +5,7 @@
     --main-color: linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);
     --primary-color: linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);
     --hover: #5a4d3e;
-    --black:#2a201c;
+    --black:#2a2a2a;
     --white:#fff;
     --light-bg:linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);;
     --dark-bg:rgba(0,0,0,.7);
@@ -133,7 +133,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* background:url(../images/home-bg2.png) no-repeat; */
+    background:url(../images/home-bg2.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -241,6 +241,8 @@ section{
     height: 100%;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
+    box-shadow: -1px 1px 6px rgba(0,0,0,.9);
  }
 
  .services .box-container .box img{
