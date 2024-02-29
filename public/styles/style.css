@@ -178,6 +178,8 @@ section{
 
 .about .row .image img{
     width: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.9);
 }
 .about .row .content{
     flex:1 1 51rem;
@@ -194,6 +196,7 @@ section{
     color:#444;
     padding:1rem 0;
     line-height: 1.8;
+    text-align: justify;
 }
 
 .about .content .icons-container{
@@ -208,6 +211,8 @@ section{
     text-align: center;
     background: var(--light-bg);
     padding:3rem 2rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.9);
  }
  
  .about .content .icons-container .icons img{
