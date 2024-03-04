@@ -2,11 +2,12 @@
 
 :root{
 
-    --main-color: linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);
+    --main-color: #FFC0CB;
     --primary-color: linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);
     --hover: #5a4d3e;
     --black:#2a2a2a;
     --white:#fff;
+    --text-pink: #de8493;
     --light-bg:linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);;
     --dark-bg:rgba(0,0,0,.7);
     --border:.1rem solid #aaa;
@@ -28,6 +29,7 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
+    background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
 }
  
 html::-webkit-scrollbar{
@@ -53,11 +55,12 @@ section{
 
 .heading{
    text-align: center;
-   color:var(--primary-color);
+   color:var(--text-pink);
    text-transform: capitalize;
    margin-bottom: 3rem;
    font-size: 4rem;
    margin-top: 4rem;
+   
 }
  
 .btn{
@@ -146,12 +149,12 @@ section{
     font-size: 3rem;
     letter-spacing: .5rem;
     padding-bottom: .5rem;
-    color:var(--primary-color);
+    color:var(--text-pink);
     text-transform: uppercase;
  }
 
 .home .content h3 {
-    color:var(--black);
+    color:var(--text-pink);
     font-size: 8rem; 
     line-height: 8rem; 
     font-weight: 900;
@@ -188,12 +191,12 @@ section{
 
 .about .row .content h3{
     font-size: 3rem;
-    color:var(--primary-color);
+    color:var(--text-pink);
 }
 
 .about .row .content p{
     font-size: 1.6rem;
-    color:#444;
+    color:#d7c2c2;
     padding:1rem 0;
     line-height: 1.8;
     text-align: justify;
@@ -286,6 +289,46 @@ section{
 
 
  /* services */
+
+ /* ---------features--------- */
+
+.features {
+    padding: 50px 12%;
+    font-size: 22px;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+
+.text-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col {
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+
+.img-col img {
+    display: block;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px rgb(0, 0, 0, 0.9);
+}
+
+.features h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
 
 /* styles */
 
