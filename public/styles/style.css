@@ -3,12 +3,14 @@
 :root{
 
     --main-color: #FFC0CB;
-    --primary-color: linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);
+    --primary-color: linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, 
+    rgb(254, 201, 154) 92.7%);
     --hover: #5a4d3e;
     --black:#2a2a2a;
     --white:#fff;
     --text-pink: #de8493;
-    --light-bg:linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);;
+    --light-bg:linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, 
+    rgb(254, 201, 154) 92.7%);;
     --dark-bg:rgba(0,0,0,.7);
     --border:.1rem solid #FFC0CB;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -37,11 +39,11 @@ html::-webkit-scrollbar{
 }
  
 html::-webkit-scrollbar-track{
-    background-color: var(--white);
+    background-color: var(--text-pink);
 }
  
 html::-webkit-scrollbar-thumb{
-    background-color: var(--primary-color);
+    background-color: var(--dark-bg);
 }
 
 .logo img{
@@ -51,14 +53,6 @@ html::-webkit-scrollbar-thumb{
  
 section{
     padding: 5rem 7%;
-}
-
-.heading{
-   text-align: center;
-   text-transform: capitalize;
-   margin-bottom: 3rem;
-   font-size: 4rem;
-   margin-top: 4rem; 
 }
 
 .heading{
@@ -195,12 +189,6 @@ section{
 
 /* about */
 
-.about{
-    /* background-image:url(../images/about-left.png); */
-    background-repeat:no-repeat; 
-    background-position:left bottom;
-}
-
 .about .row{
     display: flex;
     align-items: center;
@@ -216,12 +204,18 @@ section{
     border-radius: 10px;
     box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.9);
 }
+
 .about .row .content{
     flex:1 1 51rem;
     padding:5rem;
 }
 
 .about .row .content h3{
+    font-size: 3rem;
+    color:var(--text-pink);
+}
+
+.about .heading {
     font-size: 3rem;
     color:var(--text-pink);
 }
@@ -334,7 +328,6 @@ section{
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
-    padding: 50px 0;
 }
 
 .text-col {
