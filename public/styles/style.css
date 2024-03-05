@@ -46,7 +46,7 @@ html::-webkit-scrollbar-thumb{
 
 .logo img{
     width: 10rem;
-    border-radius: 10rem;
+    border-radius: 10px;
 }
  
 section{
@@ -64,17 +64,21 @@ section{
 }
  
 .btn{
-   margin-top: 1rem;
-   display: inline-block;
-   background: var(--primary-color);
-   color:var(--white);
-   font-size: 2rem;
-   cursor: pointer;
-   padding:1rem 3rem;
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid var(--text-pink);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color:  var(--text-pink);
+    transition: background 0.5s;
+    font-size: medium;
 }
  
 .btn:hover{
-    background: var(--hover);
+    background: var(--text-pink);
+    color: var(--black);
 }
 
 /* header */
@@ -545,67 +549,6 @@ section{
 /* blog */
 
 /* visit */
-
-.visit{
-    /* background: url('../images/visit.png'); */
-    background-size: cover;
-    background-position: center;
-}
-
-.visit .row{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 2rem;
-}
-
-.visit .row .image{
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 40rem;
-            flex: 1 1 40rem;
-}
-
-.visit .row .image img{
-    width: 100%;
-}
-
-.visit .row form{
-    flex: 1 1 40rem;
-    border: 0.1rem solid var(--main-color);
-    padding: 2rem;
-}
-
-.visit .row form h3{
-    font-size: 2.5rem;
-    text-align: center;
-    color: var(--main-color);
-    padding-bottom: 1rem;
-    text-transform: uppercase;
-}
-
-.visit .row form .inputBox{
-    display: flex;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    background: var(--main-color);
-    border:var(--border);
-}
-
-.visit .row form .inputBox input{
-    width: 100%;
-    padding:2rem;
-    font-size: 1.7rem;
-    color:var(--white);
-    text-transform: none;
-    background:none;
-}
-
 /* visit */
 
 /* review  */
@@ -787,7 +730,23 @@ section{
 
     .logo img{
         width: 6rem;
-        border-radius: 10rem;
+        border-radius: 10px;
+    }
+
+    .text-col, .img-col{
+        flex-basis: 100%;
+    }
+    .features h2{
+        font-size: 30px;
+    }
+    .features p{
+        font-size: 15px;
+    }
+    .row:nth-child(2), .row:nth-child(4){
+        flex-direction: column-reverse;
+    }
+    .features .row{
+        padding: 10px 0;
     }
 
 
@@ -805,7 +764,7 @@ section{
 
     .logo img{
         width: 5rem;
-        border-radius: 10rem;
+        border-radius: 10px;
     }
 
 }
