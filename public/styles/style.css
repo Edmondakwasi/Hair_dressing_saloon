@@ -316,7 +316,7 @@ section{
 
  /* services */
 
- /* ---------features--------- */
+ /* features */
 
 .features {
     padding: 50px 12%;
@@ -343,8 +343,6 @@ section{
     color: #d7c2c2;
 }
 
-
-
 .img-col {
     flex-basis: 50%;
     margin-bottom: 20px;
@@ -365,6 +363,8 @@ section{
     --text-pink: #de8493;
 
 }
+
+/* features end */
 
 /* styles */
 
@@ -406,181 +406,6 @@ section{
 }
 
 /* styles */
-
-/* pricing */
-
-.pricing{
-    /* background: url('../images/pricing.jpg'); */
-    background-attachment: fixed;
-}
-
-.pricing .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.pricing .box-container .box{
-    height: 500px;
-    width: 300px;
-    margin: 20px 40px;
-    border-radius: 10px;
-    box-shadow: 0 3px 5px rgba(0,0,0,.9);
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    z-index: 1;
-    background: var(--primary-color);
-}
-
-.pricing .box-container .box::before,
-.pricing .box-container .box:after{
-    content: '';
-    position: absolute;
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-    opacity: .5;
-}
-
-.pricing .box-container .box::before{
-    background: var(--light-bg);
-    top: -10%; left: 80%;
-}
-
-.pricing .box-container .box::after{
-    background: var(--main-color);
-    bottom: -10%; right: 80%;
-}
-
-.pricing .box-container .box .title{
-    margin: 30px 0;
-    font-size: 26px;
-    color: var(--main-color);
-    text-transform: capitalize;
-}
-
-.pricing .box-container .box .price{
-    height: 160px;
-    width: 160px;
-    color: var(--white);
-    background: var(--main-color);
-    padding: 57px 0 0;
-    margin: 0 auto 25px;
-    border-radius: 50%;
-}
-
-.pricing .box-container .box .price .currency{
-    font-size: 35px;
-    line-height: 35px;
-    font-weight: 300;
-}
-
-.pricing .box-container .box .price .amount{
-    font-size: 58px;
-    line-height: 45px;
-    font-weight: 700;
-}
-
-.pricing .box-container .box ul li{
-    text-align: left;
-    font-size: 16px;
-    padding-left: 45px;
-    margin: 20px auto;
-    color: var(--white);
-    list-style: none;
-    text-transform: uppercase;
-}
-
-.pricing .box-container .box ul li i{
-    color: var(--main-color);
-    padding: 0 10px;
-}
-
-.pricing .box-container .box button{
-    height: 40px;
-    width: 140px;
-    outline: none;
-    border-radius: 50px;
-    text-transform: capitalize;
-    cursor: pointer;
-    background: none;
-    color: var(--main-color);
-    border: 2px solid var(--main-color);
-    font-size: 17px;
-    font-weight: bold;
-    transition: .2s linear;
-}
-
-.pricing .box-container .box button:hover{
-    color: var(--white);
-    background: var(--main-color);
-}
-
-/* pricing */
-
-/* blog */
-
-.blogs .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:3rem;
-}
-
-.blogs .box-container .box{
-    background: var(--primary-color);
-}
-
-.blogs .box-container .box .image{
-    height: 25rem;
-    overflow:hidden;
-    width: 100%;
-}
-
-.blogs .box-container .box .image img{
-    height: 100%;
-    object-fit: cover;
-    width: 100%;
-}
-
-.blogs .box-container .box:hover .image img{
-    transform: scale(1.2);
-}
-
-.blogs .box-container .box .content{
-    padding:2rem;
-}
-
-.blogs .box-container .box .content .title{
-    font-size: 2.5rem;
-    line-height: 1.5;
-    color:var(--white);
-}
-
-.blogs .box-container .box .content .title:hover{
-    color:var(--main-color);
-}
-
-.blogs .box-container .box .content span{
-    color:var(--main-color);
-    display: block;
-    padding-top: 1rem;
-    font-size: 2rem;
-    text-transform: capitalize;
-}
-
-.blogs .box-container .box .content p{
-    font-size: 1.6rem;
-    line-height: 1.8;
-    color: var(--white);
-    padding:1rem 0;
-}
-
-/* blog */
-
-/* visit */
-/* visit */
 
 /* review  */
 
@@ -699,7 +524,6 @@ section{
     color: var(--primary-color);
   }
 
-
 @media (max-width:991px){
 
     html{
@@ -741,9 +565,11 @@ section{
                 justify-content: center;
         z-index: 1200;
       }
+
       .header .navbar #close-navbar {
         display: block;
       }
+
       .header .navbar.active {
         right: 0;
       }
@@ -768,12 +594,10 @@ section{
         flex-basis: 100%;
     }
 
-    /* .features p{
-        font-size: 15px;
-    } */
     .row:nth-child(2), .row:nth-child(4){
         flex-direction: column-reverse;
     }
+
     .features .row{
         padding: 10px 0;
     }
