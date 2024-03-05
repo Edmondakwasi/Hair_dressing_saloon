@@ -10,7 +10,7 @@
     --text-pink: #de8493;
     --light-bg:linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, rgb(254, 201, 154) 92.7%);;
     --dark-bg:rgba(0,0,0,.7);
-    --border:.1rem solid #aaa;
+    --border:.1rem solid #FFC0CB;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
@@ -55,12 +55,15 @@ section{
 
 .heading{
    text-align: center;
-   color:var(--text-pink);
    text-transform: capitalize;
    margin-bottom: 3rem;
    font-size: 4rem;
-   margin-top: 4rem;
-   
+   margin-top: 4rem; 
+   color: var(--text-pink); 
+}
+
+.features .heading {
+    color: var(--text-pink);
 }
  
 .btn{
@@ -216,7 +219,7 @@ section{
  .about .content .icons-container .icons{
     flex:1 1 16rem;
     text-align: center;
-    background: var(--light-bg);
+    background: var(  --main-color);
     padding:3rem 2rem;
     border-radius: 10px;
     box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.9);
@@ -314,6 +317,16 @@ section{
     margin-bottom: 20px;
 }
 
+.text-col h2 {
+    color: #de8493;
+}
+
+.text-col p {
+    color: #d7c2c2;
+}
+
+
+
 .img-col {
     flex-basis: 50%;
     margin-bottom: 20px;
@@ -327,7 +340,7 @@ section{
     box-shadow: 1px 2px 4px rgb(0, 0, 0, 0.9);
 }
 
-.features h2 {
+.features h2{
     font-size: 50px;
     font-weight: 600;
     margin-bottom: 20px;
@@ -568,20 +581,20 @@ section{
 .review .box-container .box p{
     font-size: 1.5rem;
     line-height: 1.8;
-    color:var(--black);
+    color:#d7c2c2;
     padding:2rem 0;
 }
 
 .review .box-container .box h3{
     padding:1rem 0;
     font-size: 2rem;
-    color:var(--black);
+    color:var(--text-pink);
     text-transform: capitalize;
 }
 
 .review .box-container .box .stars i{
     font-size: 1.5rem;
-    color:var(--primary-color);
+    color:var(--text-pink);
 }
 
 /* review end */
@@ -736,12 +749,10 @@ section{
     .text-col, .img-col{
         flex-basis: 100%;
     }
-    .features h2{
-        font-size: 30px;
-    }
-    .features p{
+
+    /* .features p{
         font-size: 15px;
-    }
+    } */
     .row:nth-child(2), .row:nth-child(4){
         flex-direction: column-reverse;
     }
@@ -763,8 +774,8 @@ section{
     }
 
     .logo img{
-        width: 5rem;
-        border-radius: 10px;
+        width: 6rem;
+        border-radius: 5px;
     }
 
 }
