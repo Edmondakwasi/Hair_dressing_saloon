@@ -59,8 +59,33 @@ section{
    margin-bottom: 3rem;
    font-size: 4rem;
    margin-top: 4rem; 
-   color: var(--text-pink); 
 }
+
+.heading{
+   text-align: center;
+   text-transform: capitalize;
+   margin-bottom: 3rem;
+   font-size: 4rem;
+   margin-top: 4rem; 
+}
+
+.review .heading{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    margin-top: 4rem; 
+    color: var(--text-pink);
+ }
+
+ .visit .heading{
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+    font-size: 4rem;
+    margin-top: 4rem; 
+    color: var(--text-pink);
+ }
 
 .features .heading {
     color: var(--text-pink);
@@ -257,7 +282,7 @@ section{
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: -1px 1px 6px rgba(0,0,0,.9);
+    box-shadow: -1px 1px 4px rgba(0,0,0,.6);
  }
 
  .services .box-container .box img{
@@ -285,8 +310,8 @@ section{
  .services .box-container .box .content h3{
     text-align: center;
     font-size: 3rem;
-    color:var(--white);
-    padding-top: 40rem;
+    color:var(--text-pink);
+    padding-top: 20rem;
     text-transform: capitalize;
  }
 
@@ -759,8 +784,6 @@ section{
     .features .row{
         padding: 10px 0;
     }
-
-
 }
 
 @media (max-width:450px){
