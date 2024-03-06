@@ -313,7 +313,6 @@ section{
     display: flex;
  }
 
-
  /* services */
 
  /* features */
@@ -483,10 +482,10 @@ section{
     margin-right: .3rem;
     text-align: center;
   }
-  
+/*   
   .footer .box-container .box .share a:hover {
     background-color: var(--black);
-  }
+  } */
   
   .footer .box-container .box .link {
     font-size: 1.7rem;
@@ -551,7 +550,7 @@ section{
         top: 0;
         right: -105%;
         width: 30rem;
-        background: var(--white);
+        background: #FFC0CB;
         height: 100%;
         display: -webkit-box;
         display: -ms-flexbox;
@@ -588,6 +587,11 @@ section{
     .logo img{
         width: 6rem;
         border-radius: 10px;
+    }
+
+    .text-col h2, p {
+        font-size: 3rem;
+        text-align: center;
     }
 
     .text-col, .img-col{
