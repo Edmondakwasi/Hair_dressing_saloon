@@ -327,11 +327,12 @@ section{
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 10rem;
 }
 
 .text-col {
     flex-basis: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .text-col h2 {
@@ -482,11 +483,7 @@ section{
     margin-right: .3rem;
     text-align: center;
   }
-/*   
-  .footer .box-container .box .share a:hover {
-    background-color: var(--black);
-  } */
-  
+
   .footer .box-container .box .link {
     font-size: 1.7rem;
     line-height: 2;
