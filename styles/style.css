@@ -478,8 +478,7 @@ section{
     line-height: 4.5rem;
     border-radius: 50%;
     font-size: 1.7rem;
-    background-color: var(--primary-color);
-    color: var(--white);
+    color: var(--primary-color);
     margin-right: .3rem;
     text-align: center;
   }
