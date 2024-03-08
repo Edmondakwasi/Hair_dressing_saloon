@@ -163,7 +163,8 @@ section{
     display: flex;
     align-items: center;
     background:url(../images/home-bg2.png) no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-color: black;
     background-position: center;
 }
 
