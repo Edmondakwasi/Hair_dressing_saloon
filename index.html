@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <script src="./scripts/script.js" defer></script>
+    <script async
+        src="https://js.stripe.com/v3/buy-button.js">
+    </script>
 </head>
 <body>
     <!-- header -->
@@ -186,8 +189,20 @@
 
 <section class="visit" id="visit">
 
-    <h1 class="heading"> book a visit </h1>
-    <a href="https://calendly.com/wenona373" class="btn">Book</a>
+
+    <!-- Booking Button (disabled until checkbox is checked) -->
+    <stripe-buy-button class="btn" id="bookButton" onclick="return enableBooking()" style="pointer-events: none; opacity: 0.5;"
+    buy-button-id="buy_btn_1QFZmeP1ZRhvmIMfcLMFIFA6"
+    publishable-key="pk_live_51Q3MhuP1ZRhvmIMftIE2hkeZYQfSMJCiMVs0gn2TOFD9tBWnHv6qacwhr4I4R93bYu94qzupCi5WMB2LvFQMROjG00rs22x0qt"
+  >
+  </stripe-buy-button>
+    
+
+    <!-- Privacy Policy Agreement -->
+    <div id="privacy">
+        <input type="checkbox" id="privacyPolicy" class="privacyPolicy"/>
+        <label for="privacyPolicy">I agree to the <a href="/privacy-policy.html" target="_blank">Privacy Policy</a></label>
+    </div>
 
 </section>
 
