@@ -104,6 +104,10 @@ section{
     line-height: 1.6;
 }
 
+.privacy-policy a {
+  color: var(--main-color);
+}
+
 .heading {
     color:var(--text-pink);
     font-size: 2em;

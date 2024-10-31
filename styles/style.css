@@ -107,6 +107,10 @@ section{
     color:  var(--text-pink);
 }
 
+#privacy a {
+    color: var(--main-color);
+}
+
 #privacy input {
     width: 40px;
 }
