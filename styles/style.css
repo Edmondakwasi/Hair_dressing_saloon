@@ -89,18 +89,35 @@ section{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid var(--text-pink);
-    padding: 14px 50px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     text-decoration: none;
     color:  var(--text-pink);
     transition: background 0.5s;
-    font-size: medium;
 }
  
 .btn:hover{
     background: var(--text-pink);
     color: var(--black);
+}
+
+#privacy {
+    text-align: center;
+    font-size: large;
+    color:  var(--text-pink);
+}
+
+#privacy a {
+    color: var(--main-color);
+}
+
+#privacy input {
+    width: 40px;
+}
+
+.privacyPolicy {
+    width: 20px;
+    height: 20px;
 }
 
 /* header */
