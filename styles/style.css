@@ -406,6 +406,12 @@ section{
     padding:1rem 0;
 }
 
+.custom-checkbox {
+    width: 60px;
+    height: 25px;
+    cursor: pointer;
+}
+
 /* styles */
 
 /* review  */
@@ -523,6 +529,10 @@ section{
   .footer .credit span {
     color: var(--primary-color);
   }
+
+  /* Terms and conditions */
+
+ 
 
 @media (max-width:991px){
 
