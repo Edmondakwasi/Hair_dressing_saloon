@@ -2,13 +2,13 @@
 
 :root{
 
-    --main-color: #FFC0CB;
+    --main-color: #EF8FB8;
     --primary-color: linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, 
     rgb(254, 201, 154) 92.7%);
     --hover: #5a4d3e;
     --black:#2a2a2a;
     --white:#fff;
-    --text-pink: #de8493;
+    --text-pink: #EF8FB8;
     --light-bg:linear-gradient(104.9deg, #d7c7ae 2.3%, rgb(255, 95, 162) 2.3%, 
     rgb(254, 201, 154) 92.7%);;
     --dark-bg:rgba(0,0,0,.7);
