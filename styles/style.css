@@ -88,7 +88,8 @@ section{
 button{
     display: block;
     margin: 50px auto;
-    width: fit-content;
+
+    width: 5rem;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     text-decoration: none;
