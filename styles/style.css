@@ -85,7 +85,7 @@ section{
     color: var(--text-pink);
 }
  
-.btn{
+button{
     display: block;
     margin: 50px auto;
     width: fit-content;
@@ -96,7 +96,7 @@ section{
     transition: background 0.5s;
 }
  
-.btn:hover{
+button:hover{
     background: var(--text-pink);
     color: var(--black);
 }
