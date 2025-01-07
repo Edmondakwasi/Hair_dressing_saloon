@@ -88,8 +88,9 @@ section{
 button{
     display: block;
     margin: 50px auto;
-
-    width: 5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 8rem;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
     text-decoration: none;
