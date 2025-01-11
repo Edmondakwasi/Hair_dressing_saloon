@@ -2,8 +2,8 @@ const CACHE_NAME = 'my-site-cache-v1';
 const urlsToCache = [
   '/',
   '/index.html',
-  '/styles/main.css',
-  '/scripts/main.js',
+  '/styles/styles.css',
+  '/scripts/script.js',
   // Add other assets to cache
 ];
 
