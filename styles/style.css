@@ -85,7 +85,7 @@ section{
     color: var(--text-pink);
 }
  
-button{
+.btn{
     display: block;
     margin: 50px auto;
     padding-top: 1rem;
@@ -103,6 +103,8 @@ button:hover{
     background: var(--text-pink);
     color: var(--black);
 }
+
+
 
 #privacy {
     text-align: center;
