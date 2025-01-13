@@ -88,13 +88,10 @@ section{
 .btn{
     display: block;
     margin: 30px auto;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     width: 8rem;
     font-size: 1.6rem;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
-    text-decoration: none;
     color:  var(--text-pink);
     transition: background 0.5s;
 }
