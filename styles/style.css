@@ -87,7 +87,7 @@ section{
  
 .btn{
     display: block;
-    margin: 30px auto;
+    margin-left: 50rem;
     width: 8rem;
     font-size: 1.6rem;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
